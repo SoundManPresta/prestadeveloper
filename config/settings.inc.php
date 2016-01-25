@@ -13,7 +13,7 @@ define('_DB_PREFIX_', 'ps_');
 define('_DB_PASSWD_', 'du4fn3wyERjv');
 define('_COOKIE_KEY_', 'igvkx8qlsovp5kg56xqf5moncil0mesljotminohs1pppgycus47anqe');
 define('_COOKIE_IV_', 'ibxkzkdt');
-define('_PS_CREATION_DATE_', '2014-01-21');
+define('_PS_CREATION_DATE_', '2016-01-22');
 define('_RIJNDAEL_KEY_', '28N2FLDLdda9bxV4b7xoq4CBOeJ0tJm8');
 define('_RIJNDAEL_IV_', '4+ENPiCEEao031HL+GpIyA==');
 define('_PS_VERSION_', '1.6.1.4');
