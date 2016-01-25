@@ -47,17 +47,7 @@ if (!headers_sent()) {
     header('Content-Type: text/html; charset=utf-8');
 }
 
-/* No settings file? goto installer... */
-if (!file_exists(_PS_ROOT_DIR_.'/config/settings.inc.php')) {
-    if (file_exists($currentDir.'/../install')) {
-        header('Location: install/');
-    } elseif (file_exists($currentDir.'/../install-dev')) {
-        header('Location: install-dev/');
-    } else {
-        die('Error: "install" directory is missing');
-    }
-    exit;
-}
+
 
 /* include settings file only if we are not in multi-tenancy mode */
 require_once(_PS_ROOT_DIR_.'/config/settings.inc.php');
